@@ -21,7 +21,7 @@
   "author": "vandesm14",
   "main": "mod.ts",
   "scripts": {
-    "compile": "deno compile mod.ts -o node-shell-init --allow-all && chmod +x node-shell-init",
+    "compile": "deno compile mod.ts -o ./bin/node-shell-init --allow-all && chmod +x ./bin/node-shell-init && cp ./lib/node-shell ./bin && chmod +x ./bin/node-shell",
     "start": "npm run compile && PATH=$PATH:./bin bash node-shell"
   },
   "dependencies": {
