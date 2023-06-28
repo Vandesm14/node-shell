@@ -23,9 +23,5 @@
   "scripts": {
     "compile": "mkdir -p ./bin && deno compile mod.ts -o ./bin/node-shell-init --allow-all && chmod +x ./bin/node-shell-init && cp ./lib/node-shell ./bin && chmod +x ./bin/node-shell",
     "start": "npm run compile && PATH=$PATH:./bin bash node-shell"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "prisma": "^4.14.1"
   }
 }
