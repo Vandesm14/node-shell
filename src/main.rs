@@ -1,6 +1,5 @@
-use std::{collections::BTreeMap, ffi::OsString, fs, path::Path};
-
 use serde::{Deserialize, Serialize};
+use std::{collections::BTreeMap, ffi::OsString, fs, path::Path};
 
 const PACKAGE_JSON_PATH: &str = "./package.json";
 const NODE_MODULES_BIN_PATH: &str = "./node_modules/.bin";
