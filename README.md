@@ -11,4 +11,4 @@ The shell script is used to set up your environment, while the binary does the h
 
 Run `node-shell` in any directory that has a `package.json` or a `node_modules` folder. **node-shell** will find all of the binaries and scripts that you would normally proxy through your package manager, and add them to the top-level of a temporary [BASH](https://www.gnu.org/software/bash/) shell.
 
-![](demo.gif)
+![](./.github/demo.gif)
